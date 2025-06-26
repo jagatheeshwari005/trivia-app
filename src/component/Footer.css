@@ -1,0 +1,53 @@
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 2rem 1rem 1rem;
+  text-align: center;
+}
+
+.footer h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.footer p {
+  margin: 0.5rem 0 1rem;
+  font-size: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.social-icons a {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

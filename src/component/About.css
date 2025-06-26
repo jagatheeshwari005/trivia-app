@@ -1,0 +1,33 @@
+/* src/component/About.css */
+
+.about-page {
+  background-color: rgb(72, 209, 147); /* fixed dark page background */
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px 30px;
+  border-radius: 16px;
+  color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  transition: background 1.5s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.about-container h1,
+.about-container h2 {
+  color: #ffffff;
+}
+
+.about-container ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.about-container li {
+  margin-bottom: 10px;
+}

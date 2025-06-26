@@ -1,0 +1,148 @@
+.quiz-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.question-section,
+.score-section {
+  text-align: left;
+}
+
+.question-text {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+.answer-btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.answer-btn:hover {
+  background-color: #2980b9;
+}
+
+.timer {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #e74c3c;
+  margin: 10px 0;
+}
+
+.score-section button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.score-section button:hover {
+  background-color: #27ae60;
+}
+
+.review-question {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  border-left: 4px solid #ccc;
+}
+
+.review-question ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.review-question li {
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.review-question li.correct {
+  background-color: #d4edda;
+  color: #155724;
+  font-weight: bold;
+}
+
+.review-question li.wrong {
+  background-color: #f8d7da;
+  color: #721c24;
+  font-weight: bold;
+}
+
+.quiz-page {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.timer {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e74c3c;
+  margin-bottom: 1rem;
+}
+
+.answers {
+  margin: 1.5rem 0;
+}
+
+.answer-btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 12px 18px;
+  font-size: 1rem;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.answer-btn.correct {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.answer-btn.wrong {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.answer-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.score {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  color: #333;
+}
